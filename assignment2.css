@@ -1,0 +1,50 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-bold{
+    color:rgba(37, 36, 50, 1) ;
+    font-weight: bold;
+}
+.light-gray{
+    color:rgba(137, 135, 161, 1) ;
+
+}
+.right-gap{
+    margin-right: 10px;
+}
+/* navbar style  */
+.navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 30px auto;
+}
+.menu{
+    display: flex;
+   
+}
+.cart a{
+    text-decoration: none;
+    color: #000000;
+}
+.page-menu a{
+    text-decoration: none;
+    
+    margin-right:48px ;
+}
+@media screen and (max-width:576px) {
+    .page-menu a{
+        display: none;
+    }
+}
