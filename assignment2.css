@@ -22,6 +22,9 @@
 .right-gap{
     margin-right: 10px;
 }
+.orange-color{
+    color:#E95A08 ;
+}
 /* navbar style  */
 .navbar-section{
     display: flex;
@@ -43,8 +46,51 @@
     
     margin-right:48px ;
 }
+/* navbar responsive style */
 @media screen and (max-width:576px) {
     .page-menu a{
         display: none;
     }
+}
+/* banner-style */
+.banner-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 120px auto;
+    align-items: end;
+    padding-top: 109px;
+}
+.banner-title{
+    margin: 0;
+    font-size: 4.06rem;
+    font-weight: bold;
+}
+.banner-description{
+    font-size:1.375rem ;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+}
+.banner-img{
+    background-size: cover;
+   
+    
+    }
+@media screen and (max-width: 576px) {
+    .banner-section{
+        flex-direction: column-reverse;
+        margin: 28px auto;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .banner-img{
+        margin: 12px 0;  
+    }
+    .banner-details{
+        padding:16px ;
+    }
+    .banner-description{
+        font-size:0.875rem;
+     }
 }
